@@ -4,3 +4,6 @@
 [submodule "bundle/ruby"]
 	path = bundle/ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "bundle/vim-railscasts"]
+	path = bundle/vim-railscasts
+	url = https://github.com/jpo/vim-railscasts-theme.git
