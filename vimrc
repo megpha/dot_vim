@@ -181,3 +181,12 @@ map <Leader>gg :Ggrep -e '<C-R>=expand("<cword>")<Enter>'<Enter>
 
 set exrc
 set secure
+
+colorscheme railscasts
+
+if has("mac")
+  set guifont=Monaco:h17
+else
+   set guifont=Monaco\ 17
+endif
+
