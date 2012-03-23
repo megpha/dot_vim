@@ -173,7 +173,7 @@ endfunction
 "call MoveToProjectRoot()
 
 " Changelog configuration
-let g:changelog_username='Aaron Patterson <aaron@tenderlovemaking.com>'
+let g:changelog_username='SubbaRao Pasupuleti <subbarao.pasupuleti@gmail.com>'
 let g:changelog_dateformat='%c'
 
 " git grep
