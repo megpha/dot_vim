@@ -7,3 +7,6 @@
 [submodule "bundle/vim-railscasts"]
 	path = bundle/vim-railscasts
 	url = https://github.com/jpo/vim-railscasts-theme.git
+[submodule "bundle/ack"]
+	path = bundle/ack
+	url = https://github.com/mileszs/ack.vim.git
