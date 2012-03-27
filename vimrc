@@ -190,3 +190,4 @@ else
    set guifont=Monaco\ 17
 endif
 
+let g:ackprg="ack -H --nocolor --nogroup --column"
