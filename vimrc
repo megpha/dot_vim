@@ -182,7 +182,9 @@ map <Leader>gg :Ggrep -e '<C-R>=expand("<cword>")<Enter>'<Enter>
 set exrc
 set secure
 
-colorscheme railscasts
+"colorscheme railscasts
+"colorscheme ir_black
+colorscheme wombat
 
 if has("mac")
   set guifont=Monaco:h17
@@ -191,3 +193,9 @@ else
 endif
 
 let g:ackprg="ack -H --nocolor --nogroup --column"
+set number
+
+
+autocmd FileType ruby let &l:tags = pathogen#legacyjoin(pathogen#uniq(
+      \ pathogen#split(&tags) +
+      \ map(split($GEM_PATH,':'),'v:val."/gems/*/tags"')))
