@@ -28,3 +28,9 @@
 [submodule "bundle/rake"]
 	path = bundle/rake
 	url = https://github.com/tpope/vim-rake.git
+[submodule "bundle/jade"]
+	path = bundle/jade
+	url = git://github.com/digitaltoad/vim-jade.git
+[submodule "bundle/slime"]
+	path = bundle/slime
+	url = git://github.com/jpalardy/vim-slime.git

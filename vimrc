@@ -187,7 +187,7 @@ set secure
 colorscheme wombat
 
 if has("mac")
-  set guifont=Monaco:h17
+  set guifont=Monaco:h21
 else
    set guifont=Monaco\ 17
 endif
